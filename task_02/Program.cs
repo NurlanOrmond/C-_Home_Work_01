@@ -5,13 +5,12 @@ int c = Convert.ToInt32(Console.ReadLine());
 
 int max =a;
 
-if (b>a) {
+if (b>max) {
     max = b;
-
 }
 
-if (c>b) {
+if (c>max) {
     max = c;
 }
 
-Console.WriteLine("The greatest number is:  " +max);
+Console.WriteLine("The greatest number is:  " +max +"!");
